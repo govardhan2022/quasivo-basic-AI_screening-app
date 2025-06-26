@@ -1,0 +1,9 @@
+Based on the following job description and candidate resume, generate three insightful interview questions to assess suitability for the role.
+
+Job Description:
+{job_description}
+
+Candidate Resume:
+{resume_text}
+
+Provide exactly 3 numbered questions.

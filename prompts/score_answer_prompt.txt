@@ -1,0 +1,14 @@
+Evaluate the quality of this answer to the interview question.
+
+Question:
+{question}
+
+Answer:
+{answer}
+
+Return ONLY the following:
+- A single digit between 1 and 10 (no extra text at start)
+- Then a short, encouraging explanation
+
+Example format:
+8 Good effort! You clearly understand the concept. Try adding more detail next time.
