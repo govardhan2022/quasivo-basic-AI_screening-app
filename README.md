@@ -77,7 +77,7 @@ Before running the app, ensure you have the following installed:
     │
     ├── app.py                     # Main application code
     ├── requirements.txt           # List of required Python packages
-    ├── .env.example               # Template for environment variables
+    ├── .env                       # Template for environment variables
     ├── .gitignore                 # Files to ignore in Git
     ├── README.md                  # This file
     │
