@@ -80,7 +80,6 @@ Before running the app, ensure you have the following installed:
     ├── .env.example               # Template for environment variables
     ├── .gitignore                 # Files to ignore in Git
     ├── README.md                  # This file
-    ├── LICENSE                    # MIT License
     │
     ├── prompts/                   # Prompt templates for Gemini
     │   ├── generate_questions_prompt.txt
