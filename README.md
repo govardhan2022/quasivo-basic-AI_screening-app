@@ -1,7 +1,6 @@
 # 🤖 Quasivo AI Screening App
 
 [![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/govardhan2022/quasivo-basic-AI_screening) 
-[![License](https://img.shields.io/github/license/yourusername/quasivo-basic-AI_screening)](LICENSE) 
 [![Python](https://img.shields.io/badge/python-3.9+-blue)](https://www.python.org/) 
 [![Streamlit](https://img.shields.io/badge/framework-streamlit-orange)](https://streamlit.io) 
 
@@ -58,18 +57,22 @@ Before running the app, ensure you have the following installed:
    git clone https://github.com/govardhan2022/quasivo-basic-AI_screening 
    cd qquasivo-basic-AI_screening
 
-2. **Install dependencie** 
+2. **Install dependencie**
+   ```bash
    pip install -r requirements.txt
 
-3. **Set up your Gemini API key**
-to .env, add your API key:
-🔐 Add .env to your .gitignore to prevent exposing your API key.
-  GEMINI_API_KEY="your_api_key_here"
+4. **Set up your Gemini API key**
+ - to .env, add your API key:
+ - 🔐 Add .env to your .gitignore to prevent exposing your API key.
+   ```bash
+     GEMINI_API_KEY="your_api_key_here"
 
 4. **Run the app**
-  streamlit run app.py
+   ```bash
+   streamlit run app.py
 
-🗂️ Folder Structure
+5.🗂️ Folder Structure
+
     quasivo-ai-screening/
     │
     ├── app.py                     # Main application code
