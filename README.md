@@ -71,7 +71,7 @@ Before running the app, ensure you have the following installed:
    ```bash
    streamlit run app.py
 
-5.🗂️ Folder Structure
+## 🗂️ Folder Structure
 
     quasivo-ai-screening/
     │
