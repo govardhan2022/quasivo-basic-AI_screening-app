@@ -121,7 +121,7 @@ class CandidateScreeningApp:
                     st.session_state.resume_text = resume_text
                     st.session_state.job_description = job_description
                     st.session_state.current_idx = 0
-                    st.experimental_rerun()
+                    st.rerun()
 
         # Interview Flow
         if 'questions' in st.session_state and st.session_state.questions:
@@ -140,7 +140,7 @@ class CandidateScreeningApp:
                     if st.button("⬅️ Previous", use_container_width=True):
                         st.session_state.answers[current_idx] = answer
                         st.session_state.current_idx -= 1
-                        st.experimental_rerun()
+                        st.rerun()
             with col_nav[2]:
                 if current_idx < total - 1:
                     if st.button("Next ➡️", use_container_width=True):
@@ -162,7 +162,7 @@ class CandidateScreeningApp:
                         st.session_state.scores = scores
                         st.session_state.explanations = explanations
                         st.session_state.completed = True
-                        st.experimental_rerun()
+                        st.rerun()
 
         # Results View
         if st.session_state.get("completed"):
